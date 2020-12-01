@@ -1,2 +1,69 @@
 # Coursera_Assignment
 Online html/css/JavaScript course
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Assignment Mod.3</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					
+					<div class="navbar-brand">
+					
+							<h1>Food, LLC</h1>
+					</div>
+					<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+			
+					</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse ">
+					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+						<li><a href="#">
+							CHICKEN
+						</a>
+						</li>
+						<li><a href="#">
+							BEEF
+						</a>
+						</li>
+						<li><a href="#">
+							SUSHI
+						</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div id="heading" class="pager"><h1>Our Menu</h1></div>
+		<div class="container">
+			<div id="menu1" class="col-xs-12">
+				<p>Chicken</p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
